@@ -97,7 +97,7 @@ class Staff
          System.out.println("========================");
          System.out.printf("Income Type            : %s%n",income.getIncomeType());
          System.out.printf("Income Amount          : RM %.2f%n",income.getAmount());
-         System.out.printf("Income Tax Percentage  : %.0f%s%n",income.getTax(),"%");
+         System.out.printf("Income Tax Percentage  : %.2f%s%n",income.getTax(),"%");
          System.out.printf("Total Tax Paid         : RM %.2f%n",income.getTotalTax());
          System.out.printf("Total Net Income       : RM %.2f%n",calculateNetIncome());
       }
